@@ -3,10 +3,10 @@ const app = express();
 
 const path = require("path");
 
-app.use("/static", express.static(path.join(__dirname, "../public")));
+app.use(express.static('public'));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public"));
+  res.sendFile(path.join(__dirname, 'public'));
 });
 
 const port = process.env.PORT || 4005;
