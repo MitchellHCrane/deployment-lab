@@ -3,39 +3,49 @@ nav {
   height: 10rem;
 }
 
-h1 {
-  font-size: 5rem;
+.mainH1 {
   text-align: center;
   color: white;
+  font-size: 9rem;
 }
 
-.bio {
-    background-color: #ed6a5a;
-    height: 10rem;
-    font-size: 9rem;
-}
-h3 {
+ul {
     text-align: center;
+}
+
+li {
+    display: inline;
     color: white;
 }
 
-.profileImage {
-    background-color: #87b37a;
+.profileImage {  
+  background-color: #87b37a;
 }
 
 .monkey {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
-
+.bio {
+  background-color: #ed6a5a;
+  height: 10rem;
+  font-size: 9rem;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+.myBio {
+  text-align: center;
+  word-wrap: normal;
+  justify-content: center;
+}
 
 body {
   background-color: #ecebf3;
 }
-
-
 
 body,
 div,
